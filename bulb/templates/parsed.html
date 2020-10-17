@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsed Article</title>
+
+    <style>
+        td {
+            border: solid 3px darkgrey;
+        }
+        </style>
+
+</head>
+<body>
+
+<table class="table" style="border: 2px solid black ; border-collapse: collapse">
+    <tbody>
+        <tr>
+            <td>Title</td>
+            <td>{{jdata["title"]}}</td>
+        </tr>
+       
+        <tr>
+            <td>Autors</td>
+            <td>{{jdata["authors"]}}</td>
+        </tr>
+
+        <tr>
+            <td>Text</td>
+            <td>{{jdata["text"]}}</td>
+        </tr>
+
+        <tr>
+            <td>Tags</td>
+            <td>{{jdata["tags"]}}</td>
+        </tr>
+
+         <tr>
+            <td>Summary</td>
+            <td>{{jdata["summary"]}}</td>
+        </tr>
+
+         <tr>
+            <td>Keywords</td>
+            <td>{{jdata["keywords"]}}</td>
+        </tr>
+
+         <tr>
+            <td>Meta Data</td>
+            <td>{{jdata["meta_data"]}}</td>
+        </tr>
+
+        <tr>
+            <td>Top Image</td>
+            <td>
+                <img src="{{jdata['top_image']}}">
+            </td>
+        </tr>
+
+
+
+
+
+    </tbody>
+</table>
+
+
+</body>
+</html>

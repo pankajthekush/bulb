@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+        <form method="GET" action="/parse">
+            {{ form.content_url.label}}
+            {{ form.content_url}}
+            {{form.submit() }}
+        </form>
+{% endblock content %}
